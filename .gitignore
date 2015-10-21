@@ -1,0 +1,11 @@
+*.suo
+*.user
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+.vs/
+packages/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+node_modules/

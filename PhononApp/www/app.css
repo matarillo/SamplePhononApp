@@ -1,0 +1,49 @@
+﻿.tabs .tab-indicator {
+    bottom: 9px;
+}
+
+.footer-bar {
+    position: fixed;
+    top: auto;
+    right: 0;
+    left: 0;
+    bottom: 4px;
+    z-index: 10;
+    height: 46px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: table;
+    width: 100%;
+    height: 46px;
+    padding: 0;
+    table-layout: fixed;
+    background-color: #fff; /*#0084e7;*/
+    border-top: 1px solid #ddd; /*#2e2bc9;*/
+}
+.footer-bar .btn {
+    position: relative;
+    z-index: 22;
+    padding: 0 12px;
+    height: 48px;
+    line-height: 52px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+.footer-bar .footer-items .footer-item {
+    position: relative;
+    display: table-cell;
+    width: 1%;
+    height: 46px;
+    color: #aaa; /*#fff;*/
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.footer-bar .footer-items .footer-item.active {
+    color: #0084e7;
+    border-bottom: 3px solid #0084e7;
+}
