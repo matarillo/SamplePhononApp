@@ -67,6 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="www\css\ionicons\css\ionicons.css" />
+    <Content Include="www\css\ionicons\css\ionicons.min.css" />
+    <Content Include="www\css\ionicons\fonts\ionicons.svg" />
+    <Content Include="www\tags\detail.html" />
+    <Content Include="www\tags\dummy\dummy1.html" />
+    <Content Include="www\tags\dummy\dummy2.html" />
     <Content Include="www\tags\footernav.html" />
     <Content Include="www\tags\pagetabs.html" />
     <Content Include="www\app.css" />
@@ -78,6 +84,7 @@
     <Content Include="www\tags\pagetwo.html" />
     <Content Include="www\tags\login.html" />
     <Content Include="www\tags\main.html" />
+    <Content Include="www\tags\timeline.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
@@ -143,6 +150,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="www\css\ionicons\fonts\ionicons.eot" />
+    <Content Include="www\css\ionicons\fonts\ionicons.ttf" />
+    <Content Include="www\css\ionicons\fonts\ionicons.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

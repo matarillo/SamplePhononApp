@@ -47,3 +47,8 @@
     color: #0084e7;
     border-bottom: 3px solid #0084e7;
 }
+
+.list li.article {
+    height: auto;
+    line-height: unset;
+}
