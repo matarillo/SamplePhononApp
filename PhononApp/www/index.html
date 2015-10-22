@@ -11,19 +11,14 @@
     <title>App</title>
 </head>
 <body>
-    <login data-page="true"></login>
-    <main data-page="true"></main>
-    <home data-page="true"></home>
-    <timeline data-page="true"></timeline>
-    <detail data-page="true"></detail>
-    <pagetabs data-page="true"></pagetabs>
-    <pagetwo data-page="true"></pagetwo>
-    <dummy1 data-page="true"></dummy1>
-    <dummy2 data-page="true"></dummy2>
+    <include src="tags/index.html"></include>
+    <include src="tags/dummy/index.html"></include>
 
     <script type="text/javascript" src="lib/riot/riot.js"></script>
     <script type="text/javascript" src="lib/riot/compiler.js"></script>
-    <script type="text/javascript" src="riot-extension.js"></script>
+    <script type="riot/tag" src="tags/include.html"></script>
+    <script type="text/javascript" src="include.js"></script>
+
     <script type="text/javascript" src="lib/phonon/js/phonon.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>

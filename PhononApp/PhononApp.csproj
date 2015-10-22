@@ -70,12 +70,14 @@
     <Content Include="www\css\ionicons\css\ionicons.css" />
     <Content Include="www\css\ionicons\css\ionicons.min.css" />
     <Content Include="www\css\ionicons\fonts\ionicons.svg" />
-    <Content Include="www\riot-extension.js" />
+    <Content Include="www\include.js" />
     <Content Include="www\tags\detail.html" />
     <Content Include="www\tags\dummy\dummy1.html" />
     <Content Include="www\tags\dummy\dummy2.html" />
-    <Content Include="www\tags\dummy\init.js" />
+    <Content Include="www\tags\dummy\index.html" />
     <Content Include="www\tags\footernav.html" />
+    <Content Include="www\tags\include.html" />
+    <Content Include="www\tags\index.html" />
     <Content Include="www\tags\pagetabs.html" />
     <Content Include="www\app.css" />
     <Content Include="www\lib\phonon\fonts\material-design-icons.eot" />

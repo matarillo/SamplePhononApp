@@ -1,17 +1,4 @@
-﻿var tags = [
-    "tags/login.html",
-    "tags/main.html",
-    "tags/home.html",
-    "tags/pagetabs.html",
-    "tags/pagetwo.html",
-    "tags/timeline.html",
-    "tags/detail.html",
-    "tags/footernav.html",
-    "tags/dummy/dummy1.html",
-    "tags/dummy/dummy2.html"
-];
-
-riot.compileAsync(tags).then(function () {
+﻿document.addEventListener("include", function (e) {
     phonon.options({
         navigator: {
             defaultPage: 'login',
