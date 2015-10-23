@@ -1,0 +1,26 @@
+﻿<footer-bar class="footer-bar">
+    <yield></yield>
+    <script>
+        "use strict";
+        let self1 = this;
+        let currentPage1 = phonon.navigator().currentPage;
+        this.on('mount', function () {
+            let navs = this.root.getElementsByTagName("nav");
+            if (navs.length == 0) {
+                return;
+            }
+            let nav = navs[0];
+            nav.classList.add("footer-items");
+            let anchors = nav.getElementsByTagName("a");
+            let len = anchors.length;
+            for (let i = 0; i < len; i++) {
+                let anchor = anchors[i];
+                anchor.classList.add("footer-item");
+                let href = anchor.hasAttribute("href") ? anchor.getAttribute("href") : "";
+                if (href.indexOf("#!" + currentPage1) === 0) {
+                    anchor.classList.add("active");
+                }
+            }
+        })
+    </script>
+</footer-bar>

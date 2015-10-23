@@ -75,9 +75,20 @@
     <Content Include="www\tags\dummy\dummy1.html" />
     <Content Include="www\tags\dummy\dummy2.html" />
     <Content Include="www\tags\dummy\index.html" />
-    <Content Include="www\tags\footernav.html" />
+    <Content Include="www\tags\footer-bar.html" />
     <Content Include="www\tags\include.html" />
     <Content Include="www\tags\index.html" />
+    <Content Include="www\tags\login\index.html" />
+    <Content Include="www\tags\member-daily\detail.html" />
+    <Content Include="www\tags\member-daily\index.html" />
+    <Content Include="www\tags\member-daily\select.html" />
+    <Content Include="www\tags\member-daily\timeline.html" />
+    <Content Include="www\tags\member-weekly\detail.html" />
+    <Content Include="www\tags\member-weekly\index.html" />
+    <Content Include="www\tags\member-weekly\select.html" />
+    <Content Include="www\tags\member-weekly\timeline.html" />
+    <Content Include="www\tags\notification\index.html" />
+    <Content Include="www\tags\notification\notification.html" />
     <Content Include="www\tags\pagetabs.html" />
     <Content Include="www\app.css" />
     <Content Include="www\lib\phonon\fonts\material-design-icons.eot" />
@@ -86,7 +97,7 @@
     <Content Include="www\lib\riot\bower.json" />
     <Content Include="www\tags\home.html" />
     <Content Include="www\tags\pagetwo.html" />
-    <Content Include="www\tags\login.html" />
+    <Content Include="www\tags\login\login.html" />
     <Content Include="www\tags\main.html" />
     <Content Include="www\tags\timeline.html" />
   </ItemGroup>
@@ -159,6 +170,9 @@
     <Content Include="www\css\ionicons\fonts\ionicons.eot" />
     <Content Include="www\css\ionicons\fonts\ionicons.ttf" />
     <Content Include="www\css\ionicons\fonts\ionicons.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="www\tags\all-member-weekly\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
