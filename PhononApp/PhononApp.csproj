@@ -71,6 +71,9 @@
     <Content Include="www\css\ionicons\css\ionicons.min.css" />
     <Content Include="www\css\ionicons\fonts\ionicons.svg" />
     <Content Include="www\include.js" />
+    <Content Include="www\tags\all-member-weekly\index.html" />
+    <Content Include="www\tags\all-member-weekly\list.html" />
+    <Content Include="www\tags\all-member-weekly\select.html" />
     <Content Include="www\tags\detail.html" />
     <Content Include="www\tags\dummy\dummy1.html" />
     <Content Include="www\tags\dummy\dummy2.html" />
@@ -171,9 +174,7 @@
     <Content Include="www\css\ionicons\fonts\ionicons.ttf" />
     <Content Include="www\css\ionicons\fonts\ionicons.woff" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="www\tags\all-member-weekly\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
