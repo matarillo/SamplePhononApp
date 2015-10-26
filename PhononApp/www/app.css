@@ -48,7 +48,20 @@
     border-bottom: 3px solid #0084e7;
 }
 
+.footer-bar ~ .content {
+    margin-bottom: 50px;
+}
+
 .list li.article {
     height: auto;
     line-height: unset;
+}
+
+.tab-contents {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    overflow: auto;
 }
