@@ -13,6 +13,31 @@
             <a href="#!all-member-weekly">members</a>
         </nav>
     </footer>
-    <div class="content">
+    <div class="content padded-full">
+        <ul class="list">
+            <li class="divider">報告する案件</li>
+            <li class="padded-list">
+                <label class="checkbox">
+                    <input type="checkbox" class="">
+                    A001_01 ○○○フロントシステム開発
+                    <span></span>
+                </label>
+            </li>
+            <li class="padded-list">
+                <label class="checkbox">
+                    <input type="checkbox" class="">
+                    A001_02 ○○○決済システム開発
+                    <span></span>
+                </label>
+            </li>
+        </ul>
+        <br />
+        <ul class="list">
+            <li class="divider">報告期間</li>
+            <li class="padded-list">開始日：<input type="date" id="date-from" value="2015-10-21" readonly></li>
+            <li class="padded-list">終了日：<input type="date" id="date-to" value="2015-10-27"></li>
+        </ul>
+        <br />
+        <button class="btn fit-parent primary">個人週次報告する</button>
     </div>
 </member-weekly-select>

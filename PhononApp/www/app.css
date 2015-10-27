@@ -65,3 +65,7 @@
     bottom: 0px;
     overflow: auto;
 }
+
+.padded-list > label.checkbox > span {
+    right:15px;
+}
